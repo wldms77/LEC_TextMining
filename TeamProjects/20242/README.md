@@ -1,1 +1,29 @@
-Upload your 
+# Text Mining Team Project line-ups
+
+- Team 1: "Project Title"
+    - 신기성 (GitHub URL)
+    - 곽주하 (GitHub URL)
+- Team 2: "Project Title"
+    - 한찬솔 (GitHub URL)
+    - 박주은 (GitHub URL)
+    - 임지훈 (GitHub URL)
+- Team 3: "Project Title"
+    - 최재성 (GitHub URL)
+    - 윤드미트리 (GitHub URL)
+    - 천정운 (GitHub URL)
+- Team 4: "Project Title"
+    - 황은지 (GitHub URL)
+    - 박재민 (GitHub URL)
+    - 육정인 (GitHub URL)
+- Team 5: "Project Title"
+    - 조영우 (GitHub URL)
+    - 강지호 (GitHub URL)
+    - 김예원 (GitHub URL)
+- Team 6: "Project Title"
+    - 최윤영 (GitHub URL)
+    - 박나희 (GitHub URL)
+    - 이서진 (GitHub URL)
+- Team 7: "Project Title"
+    - 이재평 (GitHub URL)
+    - 김지호 (GitHub URL)
+    - 정찬주 (GitHub URL)
