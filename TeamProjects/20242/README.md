@@ -16,7 +16,7 @@
     - 박재민 (GitHub URL)
     - 육정인 (GitHub URL)
 - Team 5: "High-Scoring Keyword Analysis Project for Job Interviews"
-    - 조영우 (GitHub URL)
+    - 조영우 ([jayjo9](https://github.com/jayjo9))
     - 강지호 ([hahahohoJIHO](https://github.com/hahahohoJIHO))
     - 김예원 ([daydayyewon](https://github.com/daydayyewon))
 - Team 6: "Project Title"
