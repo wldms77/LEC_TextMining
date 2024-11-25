@@ -3,10 +3,10 @@
 - Team 1: "Project Title"
     - 신기성 (GitHub URL)
     - 곽주하 (GitHub URL)
-- Team 2: "Project Title"
-    - 한찬솔 (GitHub URL)
-    - 박주은 (GitHub URL)
-    - 임지훈 (GitHub URL)
+- Team 2: "Korean Text Analysis on 네이버웹툰 with Image Text Recognition"
+    - 한찬솔 (Project repository: https://github.com/ccss17/analysis_gender_text)
+    - 박주은 (https://github.com/zuenbagi01)
+    - 임지훈 (https://github.com/noahlim99)
 - Team 3: "Project Title"
     - 최재성 (GitHub URL)
     - 윤드미트리 (GitHub URL)
