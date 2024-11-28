@@ -7,10 +7,11 @@
     - 한찬솔 (Project repository: https://github.com/ccss17/analysis_gender_text)
     - 박주은 (https://github.com/zuenbagi01)
     - 임지훈 (https://github.com/noahlim99)
-- Team 3: "Project Title"
-    - 최재성 (GitHub URL)
-    - 윤드미트리 (GitHub URL)
-    - 천정운 (GitHub URL)
+- Team 3: "Everything of Handong, from 1995 to 2024 (Analysis of Handong News)"
+- [Project Repository](https://github.com/TMT2/Final-Team-Project)
+    - 최재성 ([sorrychoe](https://github.com/sorrychoe))
+    - 유가이 드미트리 ([yudm3](https://github.com/yudm3))
+    - 천정원 ([garden1000](https://github.com/garden1000))
 - Team 4: "Project Title"
     - 황은지 (GitHub URL)
     - 박재민 (GitHub URL)
