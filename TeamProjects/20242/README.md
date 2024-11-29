@@ -11,14 +11,19 @@
     - 최재성 (GitHub URL)
     - 윤드미트리 (GitHub URL)
     - 천정운 (GitHub URL)
+- Team 3: "Everything of Handong, from 1995 to 2024 (Analysis of Handong News)"
+- [Project Repository](https://github.com/TMT2/Final-Team-Project)
+    - 최재성 ([sorrychoe](https://github.com/sorrychoe))
+    - 유가이 드미트리 ([yudm3](https://github.com/yudm3))
+    - 천정원 ([garden1000](https://github.com/garden1000))
 - Team 4: "Project Title"
     - 황은지 (GitHub URL)
     - 박재민 (GitHub URL)
     - 육정인 (GitHub URL)
-- Team 5: "Project Title"
-    - 조영우 (GitHub URL)
-    - 강지호 (GitHub URL)
-    - 김예원 (GitHub URL)
+- Team 5: "High-Scoring Keyword Analysis Project for Job Interviews"
+    - 조영우 ([jayjo9](https://github.com/jayjo9/text_mining_team_proj))
+    - 강지호 ([hahahohoJIHO](https://github.com/hahahohoJIHO/24-2TextMiningProject))
+    - 김예원 ([daydayyewon](https://github.com/daydayyewon/Team_Mining_Project))
 - Team 6: "Project Title"
     - 최윤영 (GitHub URL)
     - 박나희 (GitHub URL)
