@@ -10,7 +10,6 @@
 ###                  임지훈 (https://github.com/noahlim99)      ###
 ##################################################################
 
-
 library(magrittr)
 library(dplyr)
 library(tm)
@@ -18,6 +17,7 @@ library(str2str)
 library(tidyr)
 library(slam)
 library(wordcloud2)
+library(ggplot2)
 
 get_freq_table <- function(corpus_set, table_name, lower_bound = 0) {
   corpus.token <- corpus_set %>% 
@@ -112,6 +112,37 @@ distinguish_window <- function(tbl1, tbl2, window_size) {
   list(tbl1 %>% drop_na, tbl2 %>% drop_na)
 }
 
+embedding_gender_space <- function(gender_score_table, point_num = Inf) {
+  gender_embedding <- data.frame(matrix(nrow = 0, ncol = 3))
+  colnames(gender_embedding) <- c('word', 'male.score', 'female.score')
+  max_idx <- min(
+    length(gender_score_table.15_0.2[,1][!is.na(gender_score_table.15_0.2[,1])]),
+    length(gender_score_table.15_0.2[,3][!is.na(gender_score_table.15_0.2[,3])]))
+  for (i in 1:max_idx) {
+    matched <- 
+      gender_score_table[
+        which(gender_score_table[,3] == gender_score_table[i,]$male.word),]
+    if (nrow(matched) != 0) {
+      gender_embedding[nrow(gender_embedding)+1,] <-
+        c(gender_score_table[i,]$male.word, 
+          gender_score_table[i,]$male.score, 
+          matched$female.score)
+    }
+    matched <- 
+      gender_score_table[
+        which(gender_score_table[,1] == gender_score_table[i,]$female.word),]
+    if (nrow(matched) != 0) {
+      gender_embedding[nrow(gender_embedding)+1,] <-
+        c(gender_score_table[i,]$female.word, 
+          matched$male.score,
+          gender_score_table[i,]$female.score)
+    }
+    if (nrow(gender_embedding) > point_num) 
+      break
+  }
+  gender_embedding 
+}
+
 ##############################################################################
 ### Analysis
 ##############################################################################
@@ -176,6 +207,32 @@ distinguished_tables[[1]] %>%
 distinguished_tables[[2]] %>%
   wordcloud2::wordcloud2(fontFamily = "NanumSquare")
 
+### embedding gender space
+gender_score_table.15_0.2 <- 
+  read.csv('result/(15,0.2)male_female_score.csv')
+gender_score_table.15_0.2_d <- 
+  read.csv('result/(15,0.2)male_female_distinguished.csv')
+
+point_num <- 150
+gender_embedding <- 
+  embedding_gender_space(gender_score_table.15_0.2, point_num)
+gender_embedding_d <- 
+  embedding_gender_space(gender_score_table.15_0.2_d, point_num)
+
+size <- 7
+ggplot(gender_embedding, aes(male.score, female.score, label = word)) + 
+  geom_text(size = size) +
+  theme(axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
+ggplot(gender_embedding_d, aes(male.score, female.score, label = word)) + 
+  geom_text(size = size) +
+  theme(axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
+
 ################################################################################ 
 ### TEST CODE
 ################################################################################ 
@@ -227,4 +284,3 @@ ex.df.TfDf %>% as.matrix()
 # Compare document-wise weighting
 ex.df.TfDf %>% as.matrix()
 ex.df.doc_wise_weight%>% as.matrix()
-

@@ -1,5 +1,3 @@
-(project repository: https://github.com/ccss17/analysis_gender_text)
-
 # Dataset
 
 - [dataset](https://drive.google.com/file/d/12tzd1j9a7-kUSGOsMgZn15JbU-dMEq_x/view?usp=sharing): text dataset extracted from images
@@ -51,7 +49,21 @@
     install.pakcages("wordcloud2")
     ```
 
-# Result
+# word embedding: gender space
+
+- Setting 1(window size: 7, rank weight step: 0.02)
+
+    ![](img/(15,0.2)gender_embedding_space.png)
+
+    after applied distinguish window:
+
+    ![](img/(15,0.2)gender_embedding_space_d.png)
+
+    comparison:
+
+    ![](img/(15,0.2)gender_embedding_space_comparison.png)
+
+# Visualization: WordCloud
 
 ## Setting 1(window size: 7, rank weight step: 0.02)
 
@@ -106,3 +118,33 @@
 - female distinguished
 
     ![](img/(15,0.2)female_d.png)
+
+# ChatGPT Analysis
+
+## Setting 1(window size: 7, rank weight step: 0.02)
+
+- ChatGPT analysis(female wordcloud)
+
+    ![](img/(7,0.02)female_chatgpt.png)
+
+- ChatGPT analysis(male wordcloud)
+
+    ![](img/(7,0.02)male_chatgpt.png)
+
+- ChatGPT analysis
+
+    ![](img/(7,0.02)male_female_chatgpt.png)
+
+## Setting 3(window size: 15, rank weight step: 0.2)
+
+- ChatGPT analysis(female wordcloud)
+
+    ![](img/(15,0.2)female_chatgpt.png)
+
+- ChatGPT analysis(male wordcloud)
+
+    ![](img/(15,0.2)male_chatgpt.png)
+
+- ChatGPT analysis
+
+    ![](img/(15,0.2)male_female_chatgpt.png)
