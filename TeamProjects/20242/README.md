@@ -26,5 +26,5 @@
     - 이서진 (GitHub URL)
 - Team 7: "Project Title"
     - 이재평 (GitHub URL)
-    - 김지호 (GitHub URL)
+    - 김지호 https://github.com/kimjiho01/textmining
     - 정찬주 (GitHub URL)
