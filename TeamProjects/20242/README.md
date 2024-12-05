@@ -21,7 +21,7 @@
     - 강지호 ([hahahohoJIHO](https://github.com/hahahohoJIHO/24-2TextMiningProject))
     - 김예원 ([daydayyewon](https://github.com/daydayyewon/Team_Mining_Project))
 - Team 6: "Project Title"
-    - 최윤영 ([foryourjoy](https://github.com/foryourjoy/TextMining-team6)))
+    - 최윤영 ([foryourjoy](https://github.com/foryourjoy/TextMining-team6))
     - 박나희 (GitHub URL)
     - 이서진 (GitHub URL)
 - Team 7: "Project Title"
