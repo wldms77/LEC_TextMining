@@ -10,7 +10,7 @@
 - Team 3: "Everything of Handong, from 1995 to 2024 (Analysis of Handong News)"
 - [Project Repository](https://github.com/TMT2/Final-Team-Project)
     - 최재성 ([sorrychoe](https://github.com/sorrychoe))
-    - 유가이 드미트리 ([yudm3](https://github.com/yudm3))
+    - 유가이 드미트리 ([yudm3](https://github.com/yudm3/HandongNewsAnalysis))
     - 천정원 ([https://github.com/garden1000/TEXT_MINING_PROJECT](https://github.com/garden1000/TEXT_MINING_PROJECT))
 - Team 4: "Project Title"
     - 황은지 (GitHub URL)
