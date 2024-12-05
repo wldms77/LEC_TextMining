@@ -23,7 +23,7 @@
 - Team 6: "Project Title"
     - 최윤영 (GitHub URL)
     - 박나희 (GitHub URL)
-    - 이서진 (GitHub URL)
+    - 이서진 ([sjine-e](https://github.com/sjine-e/TextMining-team6))
 - Team 7: "Project Title"
     - 이재평 (GitHub URL)
     - 김지호 https://github.com/kimjiho01/textmining
