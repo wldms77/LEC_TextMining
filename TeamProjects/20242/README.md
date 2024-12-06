@@ -16,7 +16,7 @@
     - 황은지 (GitHub URL)
     - 박재민 (GitHub URL)
     - 육정인 (GitHub URL)
-- Team 5: "High-Scoring Keyword Analysis Project for Job Interviews"
+- Team 5: "Beyound the Questions : Analyzing Interview Data for Strategic Preparation."
     - 조영우 ([jayjo9](https://github.com/jayjo9/text_mining_team_proj))
     - 강지호 ([hahahohoJIHO](https://github.com/hahahohoJIHO/24-2TextMiningProject))
     - 김예원 ([daydayyewon](https://github.com/daydayyewon/Team_Mining_Project))
