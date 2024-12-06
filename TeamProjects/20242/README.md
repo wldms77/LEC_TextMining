@@ -20,7 +20,7 @@
     - 조영우 ([jayjo9](https://github.com/jayjo9/text_mining_team_proj))
     - 강지호 ([hahahohoJIHO](https://github.com/hahahohoJIHO/24-2TextMiningProject))
     - 김예원 ([daydayyewon](https://github.com/daydayyewon/Team_Mining_Project))
-- Team 6: "Project Title"
+- Team 6: "Analysis of Differences in Corporate Sustainability Reports Based on ESG Ratings"
     - 최윤영 ([foryourjoy](https://github.com/foryourjoy/TextMining-team6))
     - 박나희 ([NaheeP](https://github.com/NaheeP/TextMining-team6))
     - 이서진 ([sjine-e](https://github.com/sjine-e/TextMining-team6))
